@@ -1,3 +1,8 @@
+# Guilherme Schwarz
+# Creates a list from the txt archives, using the opener function, then using the answer function,
+# calls the right function based on the commands ("U" for example). The function returns a string already organized: "{1, 2, 3}" for example.
+# Then sends the list that contains the Set 1 and 2 to the text function, turning [1, 2, 3] to "{1, 2, 3}". Then it prints the line.
+
 def opener(txt):
     lis = []
     with open(txt) as txt:
